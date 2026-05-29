@@ -23,11 +23,15 @@ saved progress) lives in the one file plus your browser's `localStorage`.
 
 ## Coverage
 
-62 study sections spanning the Course Foundations & digital glossary,
-Modules 1–4, the DSA/DMA seminar, the key readings (Draghi, Renda,
-Fabbrini’s EDC article, the oral-presentation debates), and the thematic
-synthesis / timeline / exam-preparation material — 157 flashcards, 156
-source-based quiz questions and 120 glossary entries.
+83 study sections spanning the Course Foundations & digital glossary,
+Modules 1–4, the DSA/DMA (Chirico) and Havrda seminars, the key readings
+(Draghi, Renda, Fabbrini’s EDC article, the oral-presentation debates), the
+thematic synthesis / timeline / exam-preparation material, and the detailed
+**deep-dive lecture notes** (the four ‘shorings’, the Draghi pillars, the
+Antwerp/Budapest declarations, the innovation gap & productivity, the
+foresight architecture, the SFRs year by year, the chips market, capital /
+knowledge / scale, and the new EU acts) — 232 flashcards, 215 source-based
+quiz questions and 171 glossary entries.
 
 ## Rebuilding
 

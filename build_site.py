@@ -1313,6 +1313,495 @@ S("syn-exam", "synthesis", "Exam Preparation — Topics, Pitfalls & Model Plans"
 ])
 
 # =============================================================================
+#  DEEP-DIVE LECTURE NOTES (from the detailed "Foresight" course notes)
+#  These enrich Modules 1-2-3 and the seminars with the analytical detail,
+#  statistics and examples given in class.
+# =============================================================================
+
+S("m1-shoring", "m1", "Deep Dive · The Swinging Moment & the Four ‘Shorings’", [
+    PR("The <b>Von der Leyen I (VDL 1) Commission</b> was a <b>swinging moment</b> in EU industrial policy. Recent history shows a <b>cyclical pattern</b> (the slide evokes Vico’s 18th-century idea that history repeats itself) between <b>vertical</b> policy (defending a specific sector or champion) and <b>horizontal</b> policy (non-sector-specific framework rules on credit, education, financing). The shift tracks liberalisation vs protectionist waves."),
+    T("VDL 1 marks an <b>acceleration</b> of the shift under way since the 2008 crisis — from a horizontal model towards a more <b>vertical</b>, interventionist, sector-specific model (open strategic autonomy). The narrative: (i) reduce strategic dependencies, especially on the US and China; (ii) boost industrial capacities; and (iii) resort to ‘shoring’ strategies."),
+    DEF("<b>The four ‘shoring’ practices</b>: <b>Onshoring</b> — a company without offshore production increases <i>national</i> production that did not exist before. <b>Reshoring</b> — bringing back operations set up abroad to the domestic market (for security, supply-chain resilience, domestic capacity, IP protection, quality control, cost efficiency). <b>Friendshoring</b> — producing in allied countries. <b>Nearshoring</b> — locating production in directly neighbouring countries."),
+    EX("Origins of the strategy: in 2019, VDL 1’s industrial strategy had two pillars — the <b>green</b> and <b>digital</b> transitions. COVID (and the offshoring of medicine production to India) added a third pillar: <b>resilience and the reduction of strategic dependencies</b>, pursued mostly with financial instruments such as the EU budget / <b>RRF</b> (Recovery and Resilience Facility)."),
+], terms=[
+    {"t":"Onshoring","d":"A firm with no offshore production increasing national production that did not previously exist."},
+    {"t":"Reshoring","d":"Bringing business operations set up abroad back to the domestic market (security, resilience, IP, quality, cost)."},
+    {"t":"Friendshoring","d":"Producing in allied (like-minded) countries."},
+    {"t":"Nearshoring","d":"Locating production in directly neighbouring countries."},
+    {"t":"Vertical vs horizontal (cyclical)","d":"EU industrial policy swings cyclically between vertical (sector/champion-specific) and horizontal (economy-wide framework) models; VDL 1 accelerated the swing toward vertical."},
+], quiz=[
+    mcq("Which 'shoring' means producing in allied, like-minded countries?",
+        ["Friendshoring", "Onshoring", "Reshoring", "Nearshoring"], 0,
+        "Friendshoring: producing in ally countries.", "Shoring practices"),
+    mcq("Reshoring is best defined as…",
+        ["bringing back business operations set up abroad to the domestic market",
+         "increasing national production that did not exist before",
+         "producing in neighbouring countries",
+         "producing in allied countries"], 0,
+        "Reshoring: bring back business operations set up in other countries: shifting the shoring of a good to the domestic market.", "Shoring practices"),
+    mcq("VDL 1's 2019 industrial strategy had two pillars (green + digital). What third pillar did COVID add?",
+        ["Resilience and the reduction of strategic dependencies",
+         "Defence", "Monetary union", "Enlargement"], 0,
+        "With the impact of the COVID crisis… a third pillar was introduced: resilience and the reduction of strategic dependencies.", "Industrial policy turn"),
+    blank("The financial instrument most associated with the resilience pillar is the ______ (acronym).",
+          ["RRF"], "Many instruments were used to achieve this resilience building goal… like the EU budget (RRF).", "RRF"),
+])
+
+S("m1-draghi3", "m1", "Deep Dive · The Draghi Report — Three Pillars", [
+    LST([
+        "Increasing <b>security</b> and reducing strategic dependencies.",
+        "Boosting the growth of <b>green technologies</b>.",
+        "Closing the <b>innovation gap</b>.",
+    ], lead="The Draghi Report (‘The Future of European Competitiveness’, Sept 2024) is built on three pillars:"),
+    PR("<b>Innovation-based productivity</b> is the <i>fil rouge</i> of the whole report — evidence that a ‘swinging moment’ has occurred."),
+    EX("The report makes <b>140 recommendations</b> aimed at <b>structural growth</b> (demography, innovation…), as opposed to <b>cyclical growth</b> (short-term interest-rate, demand and trade variations). The EU faces massive investment needs — the <b>IMF estimates ~€1 trillion of yearly investment</b> to achieve the transitions."),
+    WARN("A blunt conclusion of the report: without a new industrial strategy, the EU is <b>‘condemned to death by slow agony’</b>. Other drivers of the shift: rising energy costs, falling external (trade) demand, and global political instability."),
+], terms=[
+    {"t":"Draghi 3 pillars","d":"(i) security/reduce dependencies; (ii) grow green technologies; (iii) close the innovation gap — with innovation-based productivity as the report's fil rouge."},
+    {"t":"Structural vs cyclical growth","d":"Structural growth rests on demography and innovation; cyclical growth on short-term interest rates, shocks, trade and demand."},
+], quiz=[
+    mcq("Which is NOT one of the Draghi Report's three pillars?",
+        ["Completing the Banking Union",
+         "Increasing security and reducing strategic dependencies",
+         "Boosting the growth of green technologies",
+         "Closing the innovation gap"], 0,
+        "The Draghi report is built on 3 pillars: (i) security/dependencies, (ii) green tech growth, (iii) closing the innovation gap.", "Draghi Report"),
+    blank("The Draghi Report makes ______ recommendations to achieve structural growth.",
+          ["140"], "The Draghi report formulated 140 recommendations to achieve structural growth.", "Draghi Report"),
+    blank("The IMF estimates roughly €____ trillion of yearly investment is needed to achieve the transitions.",
+          ["1","one"], "1 trillion euros of yearly investments to achieve the transition according to the IMF.", "Draghi Report"),
+    mcq("Draghi warns that without a new industrial strategy the EU is condemned to…",
+        ["'death by slow agony'", "'a tectonic shift'", "'regulatory un-peace'", "'the valley of death'"], 0,
+        "without a new industrial strategy, the EU is condemned to death by slow agony.", "Draghi Report"),
+])
+
+S("m1-declarations", "m1", "Deep Dive · From Antwerp to Budapest — Building the Compass", [
+    EX("<b>Antwerp Declaration for a European Industrial Deal</b> (February 2024): an initiative signed by <b>over 1300 business organisations across 25 sectors</b>, calling for a European Industrial Deal to boost industrial competitiveness and sustainability."),
+    EX("<b>European Council Strategic Agenda 2024-2029</b> (June 2024): calls for industrial competitiveness, promotion of innovation and reduction of strategic dependencies — a first policy response, in line with Draghi."),
+    DEF("<b>Budapest Declaration on the New European Competitiveness Deal</b> (informal European Council, November 2024): translates Draghi’s proposals into tools/goals — (i) <b>simplification</b> (a new omnibus targeting a <b>−35% administrative burden for SMEs</b>); (ii) a <b>28th regime</b> for European companies (reducing burden and fragmentation); (iii) <b>digital sovereignty</b> (data cybersecurity, resilience of digital infrastructures)."),
+    T("The debate continues — e.g. the <b>February 2026 European Council retreat in Brussels</b> on industrial competitiveness. Von der Leyen points to key initiatives implementing Draghi: the <b>Industrial Accelerator Act (IAA)</b> and the <b>Competitiveness Coordination Tool (CCT)</b>. Informal European Councils are held in the capital of the rotating presidency."),
+], terms=[
+    {"t":"Antwerp Declaration (Feb 2024)","d":"Signed by 1300+ business organisations across 25 sectors, calling for a European Industrial Deal."},
+    {"t":"Budapest Declaration (Nov 2024)","d":"Translates Draghi into tools: simplification (−35% SME burden), the 28th regime, and digital sovereignty."},
+    {"t":"Industrial Accelerator Act (IAA)","d":"A key initiative cited as implementing Draghi's recommendations."},
+], quiz=[
+    blank("The Antwerp Declaration (Feb 2024) was signed by over ______ business organisations across 25 sectors.",
+          ["1300","1,300"], "the February 2024 Antwerp Declaration… signed by over 1300 business organizations across 25 sectors.", "Antwerp Declaration"),
+    mcq("The Budapest Declaration (Nov 2024) targets a reduction in SME administrative burden of…",
+        ["−35%", "−10%", "−50%", "−5%"], 0,
+        "simplification (i.e. new omnibus with the objective of reducing by 35% the administrative burden faced by SMEs).", "Budapest Declaration"),
+    mcq("Which June 2024 document responded to the Antwerp Declaration, calling for competitiveness and reduced dependencies?",
+        ["The European Council Strategic Agenda 2024-2029",
+         "The Versailles Declaration", "The AI Act", "The Granada Declaration"], 0,
+        "the adoption of the European Council’s Strategic Agenda (2024-2029) in June 2024.", "Strategic Agenda"),
+])
+
+S("m1-innovgap", "m1", "Deep Dive · The Innovation Gap & Productivity", [
+    PR("Pillar 1 of the Compass — <b>closing the innovation gap</b> — is the <b>first link between the new industrial strategy and digital policy</b>. Europe’s competitiveness loss is attributed to its innovation gap, mostly in digital technologies."),
+    EX("The <b>digital innovation-based GDP gap</b> with the US widened over 20 years: from <b>−17% in 2004</b> to <b>−30% in 2023</b>."),
+    DEF("<b>GDP/capita decomposition</b>: GDP/capita = GDP/hour (productivity input) × hour/population (labour input). The <b>productivity gap is far wider than the labour gap</b> — about <b>72% of the per-capita gap is productivity, 28% labour</b>. The productivity gap is largest in the <b>ICT sector, which alone accounts for ~40% of the EU productivity gap</b>."),
+    EX("<b>Digital innovation-based productivity (share over time)</b> — 1990: EU 27.4%, US 26.4%, China 1.6%, India 1.4%; 2019: EU 18.3%, US 22.9%, China 17%, India 3.3%; projected 2050: EU 11.3%, US 14.8%, China 20.4%, India 12.8%. The EU’s innovation-based productivity is declining in favour of emerging economies."),
+], terms=[
+    {"t":"Innovation gap","d":"Europe's competitiveness loss attributed mainly to a digital-technology innovation gap; the digital innovation-based GDP gap with the US widened from −17% (2004) to −30% (2023)."},
+    {"t":"Productivity gap (ICT)","d":"The EU-US per-capita gap is mostly productivity (~72%) not labour (~28%); ICT alone accounts for ~40% of the EU productivity gap."},
+], quiz=[
+    mcq("The EU's digital innovation-based GDP gap with the US widened from −17% (2004) to…",
+        ["−30% (2023)", "−10% (2023)", "−50% (2023)", "0% (2023)"], 0,
+        "the digital innovation based-GDP gap with the US has widened, from -17% in 2004, to -30% in 2023.", "Innovation gap"),
+    blank("The ICT sector alone accounts for around ____% of the EU productivity gap.",
+          ["40"], "This productivity gap is the most significant in the ICT sector, accounting for around 40% of the EU productivity gap.", "Productivity gap"),
+    mcq("Decomposing GDP/capita = GDP/hour × hour/population, the EU-US gap is mostly explained by…",
+        ["the productivity gap (~72%)", "the labour gap (~72%)", "the labour gap (~28% dominates)", "exchange rates"], 0,
+        "72% explained by the productivity gap (gdp/h) and 28% by labour gap (hours/capita).", "Productivity gap"),
+])
+
+S("m1-competitiveness-concept", "m1", "Deep Dive · What Is ‘Competitiveness’?", [
+    WARN("The Draghi Report <b>does not define competitiveness</b>, leaving great agency to the Commission and Member States to set the objective."),
+    DEF("Two economic elements of competitiveness: (i) <b>cost competitiveness</b> — the product is cheaper; (ii) <b>non-cost competitiveness</b> — the product has a property that makes it better. Draghi’s definition appears wider, linking competitiveness to <b>trade policy</b> and <b>strategic autonomy</b>."),
+    PR("Prof. Lorenzani notes the wide definition can include <b>non-cost competitiveness</b>: even if the EU lags on pure cost, it may lead on quality, <b>wellbeing and sustainability</b> — financing wellbeing/sustainability to be a <b>leader in values</b>, even if no longer a GDP leader."),
+    EX("In nominal GDP, the 7 main emerging economies currently weigh ~66% of the G7’s GDP and are on track to exceed 100% of it."),
+], terms=[
+    {"t":"Cost vs non-cost competitiveness","d":"Cost: the product is cheaper. Non-cost: the product has a quality property that makes it better. Draghi's definition is wider, linking trade and strategic autonomy."},
+], quiz=[
+    mcq("On competitiveness, the Draghi Report notably…",
+        ["does not define it, leaving agency to the Commission and MS",
+         "defines it strictly as cost only",
+         "defines it as GDP growth only",
+         "rejects the concept"], 0,
+        "the Draghi report doesn’t define competitiveness, giving a great agency to the Commission and the MS.", "Competitiveness"),
+    mcq("'Non-cost competitiveness' means…",
+        ["the product has a property that makes it better",
+         "the product is cheaper", "lower wages", "a weaker currency"], 0,
+        "non cost competitiveness: the product has a propriety that makes it better.", "Competitiveness"),
+])
+
+S("m1-compass-pillars", "m1", "Deep Dive · The Competitiveness Compass — Pillars & Solutions", [
+    DEF("The <b>Competitiveness Compass</b> (Communication, November 2024) translates Draghi into policy and rests on his <b>three pillars</b>: (i) <b>closing the innovation gap</b>; (ii) a <b>joint roadmap for decarbonisation and competitiveness</b> (e.g. the Industrial Accelerator Act); (iii) <b>reducing excessive dependencies and increasing security</b> (e.g. a joint purchasing platform for CRM)."),
+    LST([
+        "<b>Simplification</b> — omnibus packages (CSRD, CS3D…).",
+        "<b>Coordination</b> — the 28th legal regime; common procurement for CRM.",
+        "<b>Skills and quality jobs</b>.",
+        "<b>Financing opportunities</b> — the <b>Savings and Investment Union</b>, going beyond the Capital Markets Union: a single capital market, plus financial literacy and mobilising private savings towards EU competitiveness (banks/insurers financing projects with European savings).",
+        "<b>Refocused/streamlined</b> EU budget and Semester.",
+    ], lead="The main initiatives serve five goals (the first two matter most):"),
+    EX("One key initiative to close the innovation gap is the <b>Start-up and Scale-up Strategy</b>: improving SME financing, reducing regulatory fragmentation, and supporting access to public markets (and the 28th regime)."),
+], terms=[
+    {"t":"Savings and Investment Union","d":"A more ambitious successor to the Capital Markets Union: a single capital market plus financial literacy and mobilising private savings (banks/insurers) towards EU competitiveness."},
+    {"t":"Competitiveness Compass (Nov 2024)","d":"Commission Communication translating Draghi's three pillars (close the innovation gap; decarbonisation+competitiveness; reduce dependencies+security) into policy."},
+], quiz=[
+    mcq("The Savings and Investment Union is more ambitious than the Capital Markets Union because it also…",
+        ["mobilises private savings and invests in financial literacy",
+         "creates a single currency", "abolishes national budgets", "bans bank lending"], 0,
+        "Savings and investment union, going further than the capital markets union… mobilizing private savings towards the financing of EU competitiveness.", "Savings and Investment Union"),
+    mcq("The Competitiveness Compass was published in…",
+        ["November 2024", "September 2024", "February 2024", "December 2025"], 0,
+        "The publication of the Competitiveness compass in November 2024.", "Competitiveness Compass"),
+])
+
+S("m1-foresight-origins", "m1", "Deep Dive · The Origins & Architecture of Foresight in the Commission", [
+    EX("The first foresight unit in the Commission was created in <b>1987</b>. In <b>1989, Jacques Delors created a ‘cellule de prospective’</b> close to the President — but it closed quickly and failed to embed foresight in policymaking."),
+    PR("VDL 1 changed this: she created a <b>Commissioner for foresight (Maroš Šefčovič)</b>, taking over the Commission’s internal think tank (<b>IDEA</b>) and giving foresight real policy impact (e.g. the European Battery Alliance)."),
+    LST([
+        "Political level: the <b>Commissioner for foresight</b> (a Vice-President) leading efforts to embed foresight.",
+        "Member-State level: <b>foresight ministers</b> (mostly EU-affairs ministers) in the EU Foresight Network of ‘Ministers of the Future’.",
+        "Administrative level: the <b>Secretariat-General & JRC</b> as lead services.",
+        "<b>9 EU institutions</b> in the inter-institutional network <b>ESPAS</b>.",
+    ], lead="The new architecture:"),
+    DEF("The <b>Strategic Foresight Network (2020)</b> designates foresight <b>contact points in each DG</b>, diffusing foresight. Strategic foresight is therefore both <b>top-down</b> (Commissioner leadership) and <b>bottom-up</b> (socialisation via the ministers’ and DGs’ networks)."),
+], terms=[
+    {"t":"Cellule de prospective (1989)","d":"A foresight cell created by Jacques Delors close to the Commission President; closed quickly and failed to embed foresight."},
+    {"t":"IDEA","d":"The Commission's internal think tank taken over by the foresight Commissioner (Šefčovič) under VDL 1."},
+    {"t":"Strategic Foresight Network (2020)","d":"Network designating foresight contact points in each DG; makes foresight both top-down and bottom-up."},
+], quiz=[
+    mcq("Who created the 'cellule de prospective' in 1989?",
+        ["Jacques Delors", "Ursula von der Leyen", "Maroš Šefčovič", "Mario Draghi"], 0,
+        "In 1989, Jacques Delors created a cellule de prospective, a political cell close to the President of the Commission.", "Foresight origins"),
+    mcq("Under VDL 1, the foresight Commissioner (Šefčovič) took over which internal think tank?",
+        ["IDEA", "JRC", "ESPAS", "CEPS"], 0,
+        "she created a Commissioner for foresight (to take on the internal think tank of the Commission, IDEA): Maros Sefcovic.", "Foresight origins"),
+    mcq("The 2020 Strategic Foresight Network makes foresight…",
+        ["both top-down and bottom-up (DG contact points)",
+         "purely top-down", "purely academic", "Member-State-only"], 0,
+        "Strategic foresight is therefore both top down… and bottom up… DG points of contacts networks.", "Foresight network"),
+])
+
+S("m1-horizon-protocol", "m1", "Deep Dive · The Horizon-Scanning Protocol", [
+    LST([
+        "<b>Scanners</b> identify new ‘signs of change’ (e.g. de-dollarisation, a tree-extinction crisis).",
+        "A <b>sense-making workshop</b> of 15-20 people (the scanner community) analyses the signs to identify potential outcomes.",
+        "A synthesis of about <b>23 ‘weak signals of change’</b> is produced.",
+        "15-20 people from EU institutions analyse the weak signals in <b>future-impact workshops</b>…",
+        "…to <b>predict future impacts</b> of these weak signals on the EU.",
+    ], lead="Inside the Commission, horizon scanning follows a protocol for short-term trends:"),
+    EX("Output: <b>quarterly horizon-scanning newsletters</b> presented to the College of Commissioners."),
+], terms=[
+    {"t":"Sense-making workshop","d":"A 15-20-person workshop in horizon scanning that analyses 'signs of change' to identify potential outcomes and produce 'weak signals'."},
+], quiz=[
+    mcq("In the horizon-scanning protocol, 'signs of change' are analysed in a…",
+        ["sense-making workshop of 15-20 people",
+         "plenary vote", "trilogue", "comitology committee"], 0,
+        "sense-making workshop: a group of 15-20 people from the community of scanners will analyze the signs.", "Horizon scanning"),
+    mcq("Roughly how many 'weak signals of change' are synthesised?",
+        ["About 23", "About 14", "About 140", "About 9"], 0,
+        "a synthesis of 23 “weak signals of change” is elaborated.", "Horizon scanning"),
+])
+
+S("m1-cct", "m1", "Deep Dive · The Competitiveness Coordination Tool (CCT)", [
+    LST([
+        "<b>Analytical work</b> (including tech foresight) setting EU-wide competitiveness priorities.",
+        "<b>Competitiveness dialogues and charters</b> with all stakeholders (e.g. a plan after the wind dialogue).",
+        "<b>Implementation</b> via the <b>European Semester</b>, linking national actions/reforms to EU priorities.",
+        "<b>Funding</b> from the MFF (informing the EU Competitiveness Fund and the National Envelopes).",
+    ], lead="The CCT has four elements:"),
+    WARN("Problem: <b>fragmentation</b> at EU level — only <b>0.7% aggregate R&D expenditure</b>, far below the US. The CCT aims to coordinate (rather than make compete) EU and national policies, simplify the budget/Semester, and refocus funding."),
+    EX("<b>Pilot areas</b> where the EU is still in the race: (i) energy & transport infrastructure (grids, sustainable fuels, batteries, charging); (ii) digital infrastructure & vertical AI use cases (AI Gigafactories); (iii) biotechnologies & key manufacturing (e.g. the Critical Medicines Act). Note: the CCT is not yet out."),
+], terms=[
+    {"t":"Competitiveness Coordination Tool (CCT)","d":"Coordinates EU and national competitiveness priorities via analytical work, dialogues/charters, the Semester and MFF funding; tackles fragmentation (only 0.7% aggregate R&D)."},
+    {"t":"Critical Medicines Act","d":"Cited as a CCT pilot area under biotechnologies and key manufacturing capacities."},
+], quiz=[
+    blank("EU fragmentation is shown by only ____% aggregate R&D expenditure, far below the US.",
+          ["0.7"], "There is only 0.7% aggregate R&D expenditure in the EU, which is much less than for the USA.", "CCT"),
+    mcq("The CCT implements competitiveness priorities mainly through which existing process?",
+        ["The European Semester", "The trilogue", "QMV in the Council", "The Brussels effect"], 0,
+        "Implementation (i.e. via European Semester) linking national actions and reforms to EU priorities.", "CCT"),
+])
+
+S("m1-sfr-years", "m1", "Deep Dive · The Strategic Foresight Reports, Year by Year", [
+    DEF("The common thread of all SFRs: strategic foresight should help the EU <b>anticipate shocks, make long-term choices and make its policies more coherent</b>. The content evolves with the political context — and the <b>titles track the Commission’s shifting priorities</b>."),
+    LST([
+        "<b>2020 — Resilience.</b> The founding report (first annual SFR), triggered by COVID-19. Resilience is not a return to the status quo but the capacity to face, adapt and transform sustainably/justly/democratically — analysed across <b>4 dimensions: social-economic, geopolitical, green, digital</b>. Announces the resilience dashboards.",
+        "<b>2021 — Open strategic autonomy</b> (the geopolitical dimension of resilience). Shifts from resilience to the EU’s <b>capacity and freedom to act</b>; identifies structural trends to 2050 (climate, hyperconnectivity, pressure on democracy, shifting world order, demography). ‘As open as possible, as autonomous as necessary.’",
+        "<b>2022 — Twinning green + digital.</b> The two transitions must not be treated separately — they can reinforce each other or create tensions (digital consumes much electricity/resources; e-waste; CRM dependence; cyber-risks). Focus sectors: energy, transport, industry, buildings, agriculture. Russia’s war is the geopolitical accelerator.",
+        "<b>2023 — Sustainable competitiveness / wellbeing.</b> Puts sustainability and people’s wellbeing at the heart of OSA: rise of ‘beyond GDP’, sustainable & inclusive wellbeing, a <b>new social contract</b>, intergenerational fairness. Proposes 10 areas for action.",
+        "<b>2025 — ‘Resilience 2.0’ / preparedness.</b> Reaction is no longer enough — the EU must be <b>proactive, prepared, scenario-based</b> (echoing the Niinistö report and the European Preparedness Union Strategy). A ‘Resilient EU 2040’ vision on three pillars: peace through European security; defence of democratic values; people’s wellbeing. Eight key areas for action.",
+    ], lead="The reports:"),
+    EX("The 2023 SFR measured competitiveness with <b>health-adjusted GDP per capita</b>: the EU would benefit most (<b>+15.5%</b>) vs the US/China (~+12%), helping close the gap."),
+], terms=[
+    {"t":"SFR 2020 (Resilience)","d":"First annual SFR; COVID-triggered; resilience as new compass across 4 dimensions (social-economic, geopolitical, green, digital)."},
+    {"t":"SFR 2025 ('Resilience 2.0')","d":"Shift from reactive to proactive resilience/preparedness; 'Resilient EU 2040' vision (security, democratic values, wellbeing); links to the Niinistö report."},
+    {"t":"Health-adjusted GDP per capita","d":"A 'beyond GDP' competitiveness measure used in the 2023 SFR; the EU would gain most (+15.5%)."},
+], quiz=[
+    mcq("Match the SFR year to its keyword: 2021 = ?",
+        ["Open strategic autonomy", "Resilience", "Twin transition", "Resilience 2.0"], 0,
+        "2021: open strategic autonomy (the geopolitical dimension of resilience).", "SFR years"),
+    mcq("The 2025 SFR introduces which notion?",
+        ["'Resilience 2.0' / preparedness", "Twinning", "The Brussels effect", "The middle technology trap"], 0,
+        "Le rapport 2025 introduit la notion de 'Resilience 2.0'… résilience proactive… preparedness.", "SFR years"),
+    mcq("The 2020 SFR analyses resilience across how many dimensions?",
+        ["4 (social-economic, geopolitical, green, digital)", "3", "5", "10"], 0,
+        "Le rapport analyse la résilience selon quatre dimensions: sociale et économique; géopolitique; verte; numérique.", "SFR 2020"),
+    blank("The 2025 SFR's vision is a 'Resilient EU ______' built on three pillars.",
+          ["2040"], "Sa vision d’un EU resilient en 2040 repose sur trois grands piliers.", "SFR 2025"),
+])
+
+S("m1-resilience-dashboards", "m1", "Deep Dive · Resilience Dashboards & the Granada Declaration", [
+    DEF("<b>Resilience Dashboards</b>: tables, based on the (mostly digital and geopolitical) megatrends the Commission monitors, that gauge the resilience of the EU and its Member States and their ability to progress toward objectives. They analyse four areas: (i) social & economic, (ii) green, (iii) digital, (iv) geopolitical. Produced since the 2020 SFR; since <b>2023</b> they are included in the <b>European Semester Country Reports</b>."),
+    EX("OSA was operationalised by the <b>Spanish Presidency of the Council (2023)</b> — the foresight ‘conveyor belt’ relies on the Council presidency. Spain (i) produced the foresight study <b>‘Resilient EU 2030’</b> with the Commission and a cluster of MS, and (ii) held the informal European Council of <b>6 October 2023</b>, issuing the <b>Granada Declaration</b> on becoming more resilient and competitive in defence, industrial and digital policy."),
+    EX("The <b>10 OSA priorities</b> include: resilient health & food systems; affordable decarbonised energy; capacity in data/AI/cutting-edge tech; securing/diversifying CRM supply; first-mover position in standard setting; resilient economic & financial systems; skills & talents; security, defence & space; working with global partners; and resilient institutions."),
+], terms=[
+    {"t":"Resilience Dashboards","d":"Megatrend-based tables gauging EU/MS resilience across social-economic, green, digital and geopolitical areas; in the Semester Country Reports since 2023."},
+    {"t":"Granada Declaration","d":"Leaders' declaration from the 6 Oct 2023 informal European Council (Spanish Presidency) on resilience and competitiveness in defence, industrial and digital policy."},
+], quiz=[
+    mcq("Since which year are Resilience Dashboards included in the European Semester Country Reports?",
+        ["2023", "2020", "2018", "2025"], 0,
+        "Since 2023, they are introduced in the European Semester Country Reports.", "Resilience Dashboards"),
+    mcq("The Granada Declaration was issued under which Council Presidency?",
+        ["Spain (2023)", "France (2022)", "Hungary (2024)", "Belgium (2024)"], 0,
+        "informal European Council of the 6th of October 2023… issued a Leader’s declaration (i.e. the Granada declaration).", "Granada Declaration"),
+])
+
+S("m1-crm", "m1", "Deep Dive · Mitigating Dependencies & Critical Raw Materials", [
+    DEF("<b>DG GROW</b> mapped excessive dependencies across <b>11 sensitive industrial ecosystems</b>: over-reliance on a limited number of actors for goods, services, data, infrastructures, skills and technologies, with limited internal capacity to substitute imports critical to the Union’s/MS’ strategic interests."),
+    WARN("The EU is excessively reliant on <b>Critical Raw Materials (CRM)</b> given their economic importance and high supply risk — the <b>weaponisation of dependencies</b> has real effects: <b>China’s export ban on germanium halted Germany’s car production</b>."),
+    LST([
+        "Lack of infrastructure.",
+        "Administrative burden / extraction-accreditation procedures (to be accelerated by the <b>CRM Act</b>).",
+        "Environmental constraints.",
+        "Social opposition (e.g. the <b>Sami in Kiruna</b>).",
+    ], lead="Obstacles to onshoring CRM extraction in the EU (resources exist but exploitation is slow and costly):"),
+], terms=[
+    {"t":"Critical Raw Materials (CRM)","d":"Materials of high economic importance and supply risk on which the EU is excessively dependent; subject to weaponisation (e.g. China's germanium ban)."},
+    {"t":"CRM Act","d":"Aims to accelerate the accreditation/permitting process for CRM extraction in the EU."},
+    {"t":"DG GROW","d":"The Commission service that mapped excessive dependencies across 11 sensitive industrial ecosystems."},
+], quiz=[
+    mcq("Which example illustrates the 'weaponisation of dependencies' in CRM?",
+        ["China's germanium export ban halting Germany's car production",
+         "The US Huawei ban", "Spain's 2023 Presidency", "The Brussels effect"], 0,
+        "the export bans imposed by China on Germanium stopped Germany’s car production.", "CRM"),
+    mcq("Which is an obstacle to onshoring CRM extraction in the EU?",
+        ["Social opposition (e.g. the Sami in Kiruna)",
+         "Too much state aid", "Excess foundry capacity", "A surplus of patents"], 0,
+        "social opposition (Sami in Kiruna).", "CRM"),
+])
+
+# ---- Module 2 deep dives ----
+S("m2-chips-market", "m2", "Deep Dive · The Chips Market & EU Strategy", [
+    DEF("Not all chips are equal: many semiconductor types exist (optical, power, high-frequency…). <b>AI chips</b> differ from regular CPUs in computing power and type — AI chips use <b>parallel computing</b> (many tasks simultaneously) vs the <b>sequential computing</b> of regular chips (one task at a time)."),
+    EX("State of the market: the <b>EU has ~10% of world chip supply (−10 points vs 1990)</b> and produces only <b>7% of wafers</b>. Most chips are designed in one place and produced elsewhere: the <b>US specialises in design (EDA & core IP)</b> with little production; <b>Taiwan and China together account for ~70% of production</b>."),
+    PR("The EU strategy (Chips Act) is to <b>specialise in strategic processors (AI and quantum chips) with the highest scalability</b> — first-mover + first-to-scale captures the economies of scale. The April 2026 Chips Act aims to boost advanced microprocessor production (e.g. <b>ASML</b> in the NL), <b>‘from lab to fab’</b>."),
+    EX("Debate: EU-only investment vs accepting <b>FDIs</b> (e.g. <b>Intel</b> opening a plant via FDI in Germany). The Commission is even considering an FDI screening based on <b>competition</b> — moving from ‘open DNA’ to ‘competition DNA’."),
+], terms=[
+    {"t":"AI chips (parallel computing)","d":"Chips using parallel computing (many tasks at once), unlike regular CPUs that use sequential computing (one task at a time)."},
+    {"t":"Lab to fab","d":"The Chips Act ambition to turn EU research into actual European foundry/manufacturing."},
+    {"t":"ASML","d":"The Dutch firm cited in advanced microprocessor production capacity."},
+], quiz=[
+    blank("The EU holds about ____% of world chip supply, down 10 points since 1990.",
+          ["10"], "The EU has 10% of the world supply of chips, which is -10 points compared to 1990.", "Chips market"),
+    mcq("AI chips differ from regular CPUs because they use…",
+        ["parallel computing (many tasks simultaneously)",
+         "sequential computing", "quantum entanglement only", "analogue signals"], 0,
+        "AI chips rely on parallel computing… while regular chips have sequential chips, operating one task at a time.", "Chips market"),
+    mcq("Taiwan and China together account for roughly what share of chip production?",
+        ["70%", "10%", "40%", "25%"], 0,
+        "production… mostly operated in Taiwan and China, that mean 70% of the overall production.", "Chips market"),
+])
+
+S("m2-relatedness", "m2", "Deep Dive · Complexity, Relatedness & the Innovation Flywheel", [
+    DEF("<b>Complexity</b>: a technology that is difficult to develop/relocate confers a stronger comparative advantage (e.g. a cryptography system is harder to move than a solar plant). <b>Relatedness</b>: the potential for future specialisation — how likely a country is to move into a new technology given its existing skills and related sectors."),
+    PR("Strategically the EU should ask not only ‘what is complex?’ but ‘what is complex <b>and related</b> to what we already do well?’ The EU is specialised in low-complexity and green technologies (biotech, automotive) but weak in highly complex enabling tech (AI, quantum, cloud). It has a clear competitive advantage in only <b>two fields: next-generation materials and the future of cleantech</b>."),
+    EX("Example: China is more advanced in batteries, but the EU is highly <b>related</b> to batteries (skills + industrial base) — so by leveraging this it could gain a strategic advantage."),
+    DEF("<b>The innovation flywheel</b> has three elements: <b>knowledge, capital and scale</b>."),
+], terms=[
+    {"t":"Complexity","d":"How hard a technology is to develop/relocate; complex technologies confer stronger comparative advantage."},
+    {"t":"Relatedness","d":"The potential for future specialisation — how likely a country is to enter a new technology given its existing skills/sectors."},
+    {"t":"Innovation flywheel","d":"The three elements needed for innovation: knowledge, capital and scale."},
+], quiz=[
+    mcq("'Relatedness' refers to…",
+        ["the potential for future specialisation given existing skills/sectors",
+         "how cheap a product is", "the number of patents", "market share"], 0,
+        "Relatedness potential for future specialization in some technologies.", "Relatedness"),
+    mcq("The EU has a clear competitive advantage in only which two fields?",
+        ["Next-generation materials and the future of cleantech",
+         "AI and quantum", "Cloud and chips", "Automotive and pharma"], 0,
+        "The EU only has a competitive advantage in two fields: next generation materials and future of cleantech.", "Relatedness"),
+    mcq("The 'innovation flywheel' consists of…",
+        ["knowledge, capital and scale", "promote, protect, partner", "cost, quality, speed", "data, compute, cloud"], 0,
+        "3 main elements to have innovation (the innovation flywheel): knowledge, capital and scale.", "Innovation flywheel"),
+])
+
+S("m2-capital", "m2", "Deep Dive · Capital — Public, Private & Competition Policy", [
+    PR("The EU has abundant <b>household savings</b> but fails to channel them into productive investment in new technologies — hence a Commission push on <b>financial literacy</b>."),
+    EX("<b>Public capital</b>: on paper EU government R&D spending matches the US and China, but in reality the EU lags. China’s spending is underestimated (it invests via regional/local bodies and channels private spending through state-owned firms): <b>China spends less but spends better</b>. EU public spending is fragmented (mostly Member-State, no Single-Market perspective), and <b>90% of EU spending fails to achieve scale</b>."),
+    WARN("<b>Competition law hinders scaling</b>: state-aid rules limit scale, merger rules limit size. The Commission is reviewing when state aid can be granted without notification, to fund European champions — but <b>not</b> a total liberalisation (which would fragment the Single Market). Example: the <b>Clean Industrial Deal State Aid Framework</b> (simplifies aid for clean energy, lowers energy prices for energy-intensive industry, de-risks private investment via public guarantees)."),
+    DEF("<b>Equity</b> = investment as a share of a company (co-ownership): <b>public equity</b> (listed firms) and <b>private equity</b> (unlisted, riskier, mostly SMEs). <b>Venture capital</b> is private equity targeting innovative early-stage start-ups."),
+    EX("<b>Private capital</b>: risk/venture-capital funding in the EU is tiny — about <b>5%</b>, vs the <b>US 52%</b> and <b>China 40%</b>. The EU relies on risk-averse bank financing (since the 2008 crisis). Draghi called for a publicly-controlled <b>public equity fund</b>. Cautionary example: in <b>2014 the German robotics firm Kuka was acquired by Chinese capital</b>, hurting EU competitiveness and autonomy. <b>Horizon Europe</b> pillars: Pillar 1 ‘Excellent Science’ €25bn; Pillar 2 ‘Global Challenges’ €53bn; Pillar 3 ‘Innovative Europe’ €13.6bn (EIC) — a structure Draghi says should be folded into a broad EU Competitiveness Fund."),
+], terms=[
+    {"t":"Public equity vs private equity","d":"Public equity = shares of listed firms; private equity = shares of unlisted, riskier firms (mostly SMEs)."},
+    {"t":"Venture capital","d":"A type of private equity targeting innovative start-ups at an early stage; only ~5% in the EU vs 52% US, 40% China."},
+    {"t":"Clean Industrial Deal State Aid Framework","d":"A temporary, targeted framework: simplifies clean-energy aid, lowers energy prices for energy-intensive industry, and de-risks private investment via public guarantees."},
+    {"t":"Public equity fund (Draghi)","d":"A publicly-controlled fund Draghi proposed to invest in established listed companies in areas of competitiveness interest."},
+], quiz=[
+    mcq("Venture/risk-capital funding is about 5% in the EU. What are the US and China figures?",
+        ["US 52%, China 40%", "US 40%, China 52%", "US 17%, China 25%", "US 90%, China 70%"], 0,
+        "Very low venture capital and equity funding in the EU (5%)… while it is widespread in the US (52%) and in China (40%).", "Private capital"),
+    mcq("The phrase 'China spends less but spends better' refers to its…",
+        ["more effective channelling of R&D via local bodies and state-owned firms",
+         "lower wages", "cheaper chips", "weaker currency"], 0,
+        "China spends less, but spends better.", "Public capital"),
+    mcq("Which 2014 acquisition is cited as harming EU competitiveness/autonomy?",
+        ["Kuka (German robotics) by Chinese capital",
+         "ASML by US capital", "Gaia-X by hyperscalers", "Intel's German plant"], 0,
+        "in 2014, the German company [Kuka], specialized in Robotics, was acquired by Chinese capitals.", "Private capital"),
+    blank("About ____% of EU R&D spending fails to achieve scale for big multi-MS projects.",
+          ["90"], "90% of our spending fails to achieve scale to have great projects such as giga factories.", "Public capital"),
+])
+
+S("m2-knowledge", "m2", "Deep Dive · Knowledge & Skills", [
+    EX("Two indicators of knowledge/skills: (i) <b>share of patent applications</b> and (ii) <b>distribution of top universities</b>. Patents: the EU produces few but high-quality patents — <b>17% of world applications (US 21%, China 25%)</b>; the gap shrinks for high-quality patents (China boosts quantity, not quality)."),
+    EX("Universities: most <b>top-1000 universities</b> (Shanghai ranking) are in the EU, but most of the <b>top 10</b> are in the US/UK. Universities have spillover effects (e.g. Silicon Valley around Stanford); EU clusters (e.g. Paris) often specialise outside strategic tech (chemicals, beauty) — the middle technology trap."),
+    LST([
+        "National screening practices are too <b>fragmented</b> to mitigate technology leakage (the 4th pillar of the Economic Security Strategy targets R&D leakage; e.g. the <b>Netherlands screens Chinese PhD applicants</b>).",
+        "Only about <b>1/3 of EU patents</b> are commercially exploited.",
+        "The EU fails to leverage its <b>reverse dependencies</b> (others’ dependence on the EU, e.g. quantum experts) because of <b>brain drain</b>.",
+    ], lead="Three knowledge-production issues:"),
+    EX("Countermeasure: the <b>‘Choose Europe for Science’</b> initiative (May 2025) — values-driven research, high grants, high salaries and research freedom amid US pressure. A <b>€900 million</b> package attracted many foreign researchers in AI/quantum (e.g. <b>Aix-Marseille University attracted 66+ foreign researchers in 2025</b>)."),
+], terms=[
+    {"t":"Reverse dependencies","d":"Other states' dependence on the EU (e.g. on EU quantum experts), under-leveraged because of brain drain."},
+    {"t":"Choose Europe for Science","d":"A May 2025 initiative (~€900m) to attract researchers with grants, salaries and research freedom; e.g. Aix-Marseille attracted 66+ in 2025."},
+], quiz=[
+    mcq("The EU's share of world patent applications is…",
+        ["17% (US 21%, China 25%)", "25% (highest)", "5%", "40%"], 0,
+        "17% of the world’s patent applications were from the EU, which is slightly under the US (21%) and China (25%).", "Knowledge"),
+    blank("Only about one ______ of EU patents are commercially exploited.",
+          ["third","1/3","3"], "only ⅓ of the EU patents are actually commercially exploited.", "Knowledge", display="third (1/3)"),
+    mcq("The 'Choose Europe for Science' initiative (May 2025) unlocked roughly…",
+        ["€900 million", "€9 billion", "€90 million", "€9 million"], 0,
+        "The 900 million euros funding packages unlocked in the EU budget.", "Choose Europe for Science"),
+])
+
+S("m2-scale", "m2", "Deep Dive · Scale — Valley of Death & the Scale-up Trap", [
+    LST([
+        "Complex, costly IP-filing procedures discouraging investors.",
+        "EU <b>regulatory cost</b> (precautionary principle vs innovation principle): ~<b>100 tech laws</b> and many national tech regulators — the EU should move toward the <b>innovation principle</b>.",
+        "Fragmentation across Member States.",
+        "A bad approach to competition policy (low state aid, restrictive mergers).",
+        "Scarce public-private partnerships in innovative procurement (<b>IPCEIs are a failure</b>).",
+    ], lead="Draghi's barriers to scaling:"),
+    DEF("<b>Valley of death</b>: the critical phase when a start-up has initial money to develop its technology but must industrialise and enter the market — costs explode while revenues stay uncertain, causing many bankruptcies. <b>Scale-up trap (‘road to exile’)</b>: having survived with a product and customers, the firm needs venture capital/growth finance to scale — but EU late-stage funding is fragmented/insufficient (no European safe asset, incomplete CMU, little private equity), so firms leave for the US."),
+    EX("Result: EU firms are smaller than US ones; many SMEs, few new large firms. Only <b>8% of active unicorns in 2023 were from the EU</b> (a <b>unicorn</b> = a company valued at ≥ €1 billion)."),
+], terms=[
+    {"t":"Valley of death","d":"The phase when a start-up must industrialise and enter the market: costs explode, revenues uncertain, causing bankruptcies."},
+    {"t":"Scale-up trap (road to exile)","d":"After the valley of death, EU firms lack late-stage venture/growth finance and leave for the US."},
+    {"t":"Unicorn","d":"A company valued at ≥ €1 billion; only ~8% of 2023 active unicorns were from the EU."},
+    {"t":"Innovation principle","d":"A regulatory stance (vs the precautionary principle) the EU should adopt to become a digital regulatory power."},
+], quiz=[
+    mcq("The 'valley of death' for a start-up is when…",
+        ["it must industrialise and enter the market while costs explode and revenues are uncertain",
+         "it is acquired by a foreign firm", "it lists on the stock market", "it files its first patent"], 0,
+        "The “Valley of death” is a critical phase… costs explode but revenues are still uncertain, leading many companies to bankruptcy.", "Scale"),
+    blank("Only about ____% of active unicorns in 2023 came from the EU.",
+          ["8"], "only 8% of active unicorns in 2023 came from the EU.", "Unicorn"),
+    mcq("A 'unicorn' is a company valued at least…",
+        ["€1 billion", "€100 million", "€10 billion", "€1 trillion"], 0,
+        "a unicorn is a company with a capitalization of at least 1 billion euros.", "Unicorn"),
+])
+
+S("m2-closing-gap", "m2", "Deep Dive · Closing the Gap — New Strategies & Acts", [
+    LST([
+        "<b>Scale-up Europe Fund (€2-5 bn)</b>: an EU fund directly investing in growing tech companies in strategic sectors (directly managed, indirect equity via portfolios) — the EU takes the biggest risk to crowd in private investors.",
+        "<b>European Innovation Investment Pact</b>: incentives to get risk-averse investors (pension funds) into start-ups — e.g. the <b>EIB guarantees 20-30%</b> of an investment if a start-up fails.",
+        "Expansion of the <b>European Innovation Council (EIC) Fund</b> (Horizon Europe) for equity investment.",
+    ], lead="The Start-up & Scale-up Strategy's ‘better finance’ pillar (aiming to retain 50% more unicorns):"),
+    DEF("<b>28th regime</b>: a new optional EU-wide legal regime for registering/operating companies, cutting regulatory burden and fragmentation via non-binding uniform standards — a firm could expand across the EU without changing legal regime (e.g. create a company in 48 hours with very low capital)."),
+    LST([
+        "<b>Cloud and AI Development Act (CADA)</b> — closes the cloud/AI infrastructure gap (data-centre efficiency, green data centres & AI Gigafactories, a secure cloud for public administration).",
+        "<b>Quantum Act</b> (2026, implementing the 2025 Quantum Strategy): research & innovation; industrial capabilities (quantum chips/applications); securing supply chains.",
+        "<b>Apply AI Strategy</b> — applies AI across strategic sectors (healthcare, industry, defence, climate) and the public sector.",
+        "<b>Digital Networks Act (DNA)</b> — uniform rules to accelerate fibre, 5G, satellite and cloud deployment via a Single Market for communications (e.g. single authorisation for operators; spectrum harmonisation); builds on the <b>2024 Gigabit Infrastructure Act</b>; switches from directive to regulation.",
+    ], lead="New/upcoming acts (one piece of legislation per sector):"),
+], terms=[
+    {"t":"Scale-up Europe Fund","d":"A €2-5bn EU fund directly investing in growing tech firms in strategic sectors to crowd in private capital."},
+    {"t":"28th regime","d":"An optional EU-wide legal regime for companies (non-binding uniform standards) reducing fragmentation; enables e.g. creating a company in 48 hours."},
+    {"t":"Cloud and AI Development Act (CADA)","d":"Upcoming act to close the EU cloud/AI infrastructure gap (data-centre efficiency, green data centres, AI Gigafactories, secure public-administration cloud)."},
+    {"t":"Quantum Act","d":"2026 act implementing the 2025 Quantum Strategy: R&I, industrial capabilities, secure supply chains."},
+    {"t":"Digital Networks Act (DNA)","d":"Regulation creating a Single Market for communications (5G, fibre, satellite, cloud); single authorisation, spectrum harmonisation; builds on the 2024 Gigabit Infrastructure Act."},
+], quiz=[
+    mcq("Under the European Innovation Investment Pact, the EIB can guarantee what share of a failed start-up investment?",
+        ["20-30%", "100%", "5%", "50%"], 0,
+        "the EIB can guarantee 20%-30% of the investment if a startup fails.", "Closing the gap"),
+    mcq("The 28th regime is…",
+        ["an optional EU-wide legal regime for companies reducing fragmentation",
+         "a 28th Member State", "a state-aid ceiling", "a new tax"], 0,
+        "28th regime: creation of a new optional EU-wide legal regime for the registration and operation of EU companies.", "28th regime"),
+    mcq("Which act creates a Single Market for communications networks (5G, fibre, satellite, cloud)?",
+        ["The Digital Networks Act (DNA)", "The Chips Act", "CADA", "The Quantum Act"], 0,
+        "Digital networks act: uniform rules to accelerate the deployment of fiber, 5G, satellite connectivity and cloud infrastructure… Single Market for Communication networks.", "Digital Networks Act"),
+])
+
+S("m2-export", "m2", "Deep Dive · Export Controls, Wassenaar & Data Acts", [
+    DEF("The <b>Wassenaar Arrangement</b> (established <b>1996</b>) is the multilateral regime for export controls. The US treats chips as key to China’s technological development and has imposed export-control measures."),
+    LST([
+        "<b>Better targeting</b> — you cannot simply stop GPU production (alternatives will emerge).",
+        "<b>Better coordination</b> — fewer, better-managed export controls (Member States applied them differently).",
+    ], lead="EU export controls could improve through:"),
+    EX("Submarine cables carry about <b>$1 trillion of economic transactions per day</b>; for <b>~10% of EU cable systems there is an espionage risk</b> as China’s HMN is linked to Huawei. Under the new Digital Networks Act / Cybersecurity Act, Member States must <b>phase out high-risk suppliers (ZTE and Huawei)</b>."),
+    DEF("Two data laws to distinguish: the <b>Data Act</b> (governs <b>public/industrial data</b> access and sharing) and the <b>Data Governance Act</b> (framework for <b>private data</b> sharing)."),
+], terms=[
+    {"t":"Wassenaar Arrangement (1996)","d":"The multilateral export-control regime; the US uses chip export controls against China's tech development."},
+    {"t":"Data Act vs Data Governance Act","d":"Data Act governs public/industrial data; Data Governance Act provides the framework for private data sharing."},
+], quiz=[
+    blank("The multilateral export-control regime, established in 1996, is the ______ Arrangement.",
+          ["Wassenaar"], "The Wassenaar regime was established in 1996 for export controls.", "Wassenaar"),
+    mcq("Roughly how much in economic transactions transit submarine cables each day?",
+        ["$1 trillion", "$1 billion", "$1 million", "$100 billion"], 0,
+        "submarine cables: 1 trillion dollars of economic transactions are transiting through these cables every day.", "Submarine cables"),
+    mcq("Which two high-risk suppliers must MS phase out under the new framework?",
+        ["ZTE and Huawei", "Intel and ASML", "Orange and Vodafone", "Google and Meta"], 0,
+        "obligation for the MS to phase out some high-risk suppliers from digital networks (ZT[E] and Huawei).", "Submarine cables"),
+])
+
+# ---- Module 3 / seminars deep dives ----
+S("m3-empires-extra", "m3", "Deep Dive · ‘Regulatory Un-peace’ & the Battle of Offers", [
+    DEF("Anu Bradford coined <b>‘regulatory un-peace’</b> — the tension between <b>values</b> and <b>economic incentives</b> in the horizontal battle between geo-blocks (US market-driven, China state-driven, EU rights-driven)."),
+    PR("A <b>battle of narratives</b> can become a <b>battle of offers</b>: e.g. China’s Belt and Road Initiative comes bundled with the adoption of <b>Chinese standards</b> (China Standards 2035). Today about <b>two-thirds of the world’s population live in countries that have taken a China/US stance</b>."),
+    EX("The 2023 SFR called for creating <b>regulatory alliances with well-chosen allies</b> (a ‘transatlantic marketplace’, also in digital standards) to amplify the EU’s regulatory approach."),
+], terms=[
+    {"t":"Regulatory un-peace","d":"Anu Bradford's term for the tension between values and economic incentives in the battle between digital-governance geo-blocks."},
+], quiz=[
+    mcq("'Regulatory un-peace' (Bradford) describes the tension between…",
+        ["values and economic incentives", "law and order", "trade and aid", "states and regions"], 0,
+        "Bradford designed the concept of “regulatory unpeace” between values and economic incentives.", "Regulatory un-peace"),
+    mcq("A 'battle of narratives' can become a 'battle of offers' because, e.g., Belt and Road comes with…",
+        ["the adoption of Chinese standards", "lower tariffs", "EU membership", "NATO protection"], 0,
+        "Ex belt Road initiative, the offer come with the adoption of Chinese Standards.", "Battle of offers"),
+])
+
+S("sem-havrda", "seminar", "Seminar (M. Havrda) · Foresight & Megatrends — Definitions", [
+    DEF("<b>Foresight (Havrda)</b>: “a structured approach to presuming future developments based on historical development and current signals, in order to use the obtained knowledge for actions that may <b>co-create the future</b> (an active element).”"),
+    DEF("<b>Megatrends (OECD)</b>: “relatively slow and certain directions of development, identified at the global level, and expected to change the face of the world substantially in the next decades.”"),
+    PR("Strategic foresight is tightly linked to digitalisation precisely because <b>digitalisation is itself a megatrend</b>."),
+], terms=[
+    {"t":"Foresight (Havrda definition)","d":"A structured approach to presuming future developments from history and current signals, to act so as to co-create the future."},
+], quiz=[
+    mcq("Havrda stresses that foresight has an 'active element' — meaning its knowledge is used to…",
+        ["co-create the future", "predict the future exactly", "archive the past", "replace elections"], 0,
+        "Foresight… in order to use the obtained knowledge for actions that may co-create the future (an active element).", "Havrda"),
+    mcq("The OECD defines megatrends as relatively slow and certain directions of development identified at the…",
+        ["global level", "national level", "regional level", "sectoral level"], 0,
+        "Megatrends: relatively slow and certain directions of development, identified at the global level.", "Havrda"),
+])
+
+# =============================================================================
 #  GLOSSARY (auto-compiled from section terms + dedicated entries)
 # =============================================================================
 GLOSSARY_EXTRA = [
@@ -1379,7 +1868,33 @@ CURATED_CARDS = [
     ("Von der Leyen I Commission — described how?", "A 'swinging moment' in EU industrial policy (vertical vs horizontal) towards competitiveness, resilience and (open) strategic autonomy.", "Industrial policy turn"),
     ("Competitiveness Compass: what and four aims?", "A 2025 Commission framework / 'North Star' orienting Europe towards productivity, innovation, decarbonisation and security.", "Competitiveness Compass"),
 ]
-for f,b,c in CURATED_CARDS:
+EXTRA_CARDS = [
+    ("Name the four 'shoring' practices.", "Onshoring (new national production), Reshoring (bring operations home), Friendshoring (produce in allied countries), Nearshoring (produce in neighbouring countries).", "Shoring practices"),
+    ("Draghi Report — the three pillars?", "(i) security & reducing strategic dependencies; (ii) growth of green technologies; (iii) closing the innovation gap (fil rouge: innovation-based productivity).", "Draghi Report"),
+    ("Draghi: how many recommendations, what investment need, and the stark warning?", "140 recommendations; ~€1 trillion/year (IMF); without a new industrial strategy the EU is 'condemned to death by slow agony'.", "Draghi Report"),
+    ("Antwerp vs Budapest Declaration?", "Antwerp (Feb 2024): 1300+ business orgs, 25 sectors, call for a European Industrial Deal. Budapest (Nov 2024): simplification (−35% SME burden), 28th regime, digital sovereignty.", "Declarations"),
+    ("Innovation gap: the EU-US digital GDP gap 2004 → 2023?", "Widened from −17% (2004) to −30% (2023).", "Innovation gap"),
+    ("GDP/capita gap: productivity vs labour split, and the role of ICT?", "≈72% productivity gap, ≈28% labour gap; ICT alone ≈40% of the EU productivity gap.", "Productivity gap"),
+    ("Cost vs non-cost competitiveness?", "Cost: the product is cheaper. Non-cost: the product is better (a quality property). Draghi never defines competitiveness.", "Competitiveness"),
+    ("Competitiveness Compass — three pillars?", "Close the innovation gap; joint roadmap for decarbonisation & competitiveness; reduce excessive dependencies & increase security (Nov 2024).", "Competitiveness Compass"),
+    ("Origins of foresight in the Commission (key dates)?", "1987 first unit; 1989 Delors' 'cellule de prospective' (soon closed); VDL 1: Commissioner Šefčovič + IDEA think tank; 2020 Strategic Foresight Network (DG contact points).", "Foresight origins"),
+    ("Horizon-scanning protocol — key numbers?", "Sense-making workshop of 15-20 people → ~23 'weak signals of change' → future-impact workshops → quarterly newsletters to the College.", "Horizon scanning"),
+    ("CCT & the fragmentation figure?", "Competitiveness Coordination Tool: analytical work, dialogues/charters, Semester, MFF funding. EU has only 0.7% aggregate R&D expenditure.", "CCT"),
+    ("SFR keywords by year (2020-2025)?", "2020 Resilience; 2021 Open strategic autonomy; 2022 Twin transition (coupling); 2023 Sustainability/wellbeing; 2025 'Resilience 2.0'/preparedness (Resilient EU 2040).", "SFR years"),
+    ("CRM weaponisation example?", "China's germanium export ban halted Germany's car production. DG GROW mapped dependencies across 11 ecosystems; the CRM Act speeds up extraction permits.", "CRM"),
+    ("Chips market shares?", "EU ~10% of world chip supply (−10 pts vs 1990), only 7% of wafers; Taiwan+China ~70% of production; US leads design (EDA & core IP).", "Chips market"),
+    ("AI chips vs regular CPUs?", "AI chips use parallel computing (many tasks at once); regular CPUs use sequential computing (one at a time).", "Chips market"),
+    ("Complexity vs relatedness?", "Complexity = how hard a tech is to develop/move (stronger advantage). Relatedness = potential to specialise in a new tech given existing skills/sectors. EU advantage only in next-gen materials & future cleantech.", "Relatedness"),
+    ("Venture-capital funding shares EU/US/China?", "EU ~5%, US ~52%, China ~40%. EU relies on risk-averse bank financing since 2008; Draghi wants a public equity fund.", "Private capital"),
+    ("Patents and universities — EU position?", "Patents: EU 17%, US 21%, China 25% (EU higher quality). Most top-1000 universities in the EU but most top-10 in US/UK; only ~1/3 of EU patents commercially exploited.", "Knowledge"),
+    ("Valley of death vs scale-up trap?", "Valley of death: industrialise + enter market while costs explode, revenues uncertain → bankruptcy. Scale-up trap ('road to exile'): no late-stage VC, so firms leave for the US. Only 8% of 2023 unicorns are EU.", "Scale"),
+    ("Key new acts/funds to close the gap?", "Scale-up Europe Fund (€2-5bn), European Innovation Investment Pact (EIB guarantees 20-30%), 28th regime, CADA, Quantum Act (2026), Apply AI, Digital Networks Act (on the 2024 Gigabit Infrastructure Act).", "Closing the gap"),
+    ("Wassenaar & data acts?", "Wassenaar Arrangement (1996) = export-control regime. Data Act = public/industrial data; Data Governance Act = private data.", "Wassenaar"),
+    ("'Regulatory un-peace' (Bradford)?", "The tension between values and economic incentives among digital-governance geo-blocks; a battle of narratives becomes a battle of offers (Belt and Road bundles Chinese standards).", "Regulatory un-peace"),
+    ("Submarine cables — key figures?", "~$1 trillion/day transit; ~10% of EU cable systems carry espionage risk (HMN linked to Huawei); MS must phase out ZTE & Huawei.", "Submarine cables"),
+    ("'Choose Europe for Science' (2025)?", "May 2025 initiative (~€900m) to attract researchers (grants, salaries, research freedom); e.g. Aix-Marseille drew 66+ foreign researchers.", "Choose Europe for Science"),
+]
+for f,b,c in CURATED_CARDS + EXTRA_CARDS:
     card(f,b,c)
 
 # term-based cards from each section
